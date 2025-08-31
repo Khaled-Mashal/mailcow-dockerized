@@ -76,12 +76,13 @@ $autodiscover_config = array(
 $DETECT_LANGUAGE = true;
 
 // Change default language
-$DEFAULT_LANG = 'en-gb';
+$DEFAULT_LANG = 'ar-sa';
 
 // Available languages
 // https://www.iso.org/obp/ui/#search
 // https://en.wikipedia.org/wiki/IETF_language_tag
 $AVAILABLE_LANGUAGES = array(
+  'ar-sa' => 'العربية السعودية (Saudi Arabic)',
   // 'ca-es' => 'Català (Catalan)',
   'cs-cz' => 'Čeština (Czech)',
   'da-dk' => 'Danish (Dansk)',
@@ -127,7 +128,7 @@ $MAILCOW_APPS = array(
     'name' => 'Webmail',
     'link' => '/SOGo/so',
     'user_link' => '/SOGo/so',
-    'hide' => true
+    'hide' => false
   )
 );
 
@@ -153,7 +154,7 @@ $LOG_PAGINATION_SIZE = 50;
 $SESSION_LIFETIME = 10800;
 
 // Label for OTP devices
-$OTP_LABEL = "mailcow UI";
+$OTP_LABEL = "Al Jazeera Soft UI";
 
 // How long to wait (in s) for cURL Docker requests
 $DOCKER_TIMEOUT = 60;
